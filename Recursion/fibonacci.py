@@ -4,4 +4,4 @@ def fibonacci(n):
         return 0
     elif n == 1 :#second base condition, when n is 1 returns 1
         return 1
-    return fibonacci(n-1) + fibonacci(n-2) #recursive calls to calculate fibonacci of n by summing up the fibonacci elements of n and n-1    
+    return fibonacci(n-1) + fibonacci(n-2) #recursive calls to calculate fibonacci of n by summing up fibonacci elements of n-1 and n-2    
