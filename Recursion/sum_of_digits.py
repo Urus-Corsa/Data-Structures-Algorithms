@@ -4,6 +4,6 @@ def sum_of_digits(n):
         return n
     else:
         division_tuple = divmod(n,10) #divmod(number, dividend) returns a tuple(quotient,remainder) to split the digits
+        #return sum_of_digits(division_tuple[0]) + sum_of_digits(division_tuple[1]) 
         return sum_of_digits(division_tuple[0]) + int(division_tuple[1]) #recursivley call division until the digits are separated
                                                                                     # then sum up all digits
-print(sum_of_digits(1234))

@@ -1,8 +1,9 @@
 def power(n,e):
     assert int(e) == e, "exponent must be an integer" #edge case where the function fails
-    if n == 0 and e == 0: #edge case where only in one combinitiation result is undefined
-        return "zero to the power of zero is undefined"
-    elif e == 1: #base case of exponent = 1 to avoid indifinte recursive calls
+    assert (n,e) != (0,0), "zero to the power of zero is undefined"
+    # if n == 0 and e == 0: #edge case where only in one combinitiation result is undefined
+    #     return "zero to the power of zero is undefined"
+    if e == 1: #base case of exponent = 1 to avoid indifinte recursive calls
         return n
     elif e == 0: #base case of exponent = 0 to avoid indifinte recursive calls
         return 1
