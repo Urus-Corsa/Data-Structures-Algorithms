@@ -1,8 +1,3 @@
-from calendar import c
-
-
-myString = "this my string"
-
 def reverse_str(str):
     for i in range(0, (int(len(str)/2))):
         temp = str[i]
@@ -12,5 +7,5 @@ def reverse_str(str):
         str[count] = temp
     return str
 
-print(reverse_str(myString))
+
 
