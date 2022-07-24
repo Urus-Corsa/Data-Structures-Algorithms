@@ -7,23 +7,13 @@ def traverse(arr):
         print(arr[i])
     return "Array could not be traversed"
 
-#traverse(array)    
-
-array.insert(1,0)
 def traverse_improved(arra):
     for i in arra:
         print(i)
     return "Array could not be traversed"
-
-traverse_improved(array)        
+  
  
-# array.append(1) #only appends one integer at the end of array
 
-# print(array)
-
-
-
-# print(array)
 
 
 
