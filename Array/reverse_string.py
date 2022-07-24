@@ -6,6 +6,3 @@ def reverse_str(str):
         str[i] = last
         str[count] = temp
     return str
-
-
-
