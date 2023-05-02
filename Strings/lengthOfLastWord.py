@@ -1,5 +1,5 @@
 #LC 58
-def lola(self, s: str):
+def lola(s: str):
     """
     :type s: str
     :rtype: int
